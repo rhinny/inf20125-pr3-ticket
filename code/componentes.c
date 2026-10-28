@@ -15,7 +15,7 @@ int main(void)
         return 1;
     }
 
-    componentes_disponibles = componentes_iniciales + componentes_recibidos + componentes_instalados;
+    componentes_disponibles = componentes_iniciales + componentes_recibidos - componentes_instalados;
 
     printf("Componentes disponibles: %d\n", componentes_disponibles);
     return 0;
